@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1 class="name">Janela Chavez</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project Details</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ABOUT ME -->
+<section id="about">
+    <img src="profile.jpg" alt="Profile Image">
+    <h2>About Me</h2>
+    <p>
+        I am a student exploring intrtoduction to html, css, and js!
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+        <p>HTML</p>
+    </div>
+    <div class="skill">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+        <p>CSS</p>
+    </div>
+    <div class="skill">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+        <p>JavaScript</p>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">Portfolio Website</div>
+    <div class="project">Interest Calculator</div>
+    <div class="project">Landing Page Design</div>
+</section>
+
+<!-- RECOMMENDATIONS -->
+<section id="recommendations">
+    <h2>Recommendations</h2>
+    <ul id="recommendation-list">
+        <li>Greatt team worker</li>
+        <li>problem solver</li>
+        <li>creative!</li>
+    </ul>
+
+    <input type="text" id="new-recommendation" placeholder="Write a recommendation">
+    <button onclick="addRecommendation()">Submit</button>
+</section>
+
+<!-- HOME ICON -->
+<a href="#" class="home-icon">🏠</a>
+
+<script src="script.js"></script>
+</body>
+</html>
